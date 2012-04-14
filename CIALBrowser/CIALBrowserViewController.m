@@ -31,8 +31,7 @@
 @synthesize actionActionSheet = _actionActionSheet;
 @synthesize modal = _modal;
 @synthesize enabledSafari = _enabledSafari;
-NSMutableString *iscVhomepage = @"https://m.facebook.com";
-NSMutableString *iscVwebpage = @"";
+//OpenDyslexic code
 NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"  
    "css.setAttribute('type','text/css');"
    "css.setAttribute('rel','stylesheet');"
