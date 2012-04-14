@@ -36,7 +36,7 @@ NSMutableString *iscVwebpage = @"";
 NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"  
    "css.setAttribute('type','text/css');"
    "css.setAttribute('rel','stylesheet');"
-   "css.setAttribute('href','http://dyslexicfonts.com/plugin/easyread.css');"
+   "css.setAttribute('href','http://dyslexicfonts.com/plugin/iOS.css');"
    "document.getElementsByTagName('head')[0].appendChild(css);";
 //EndOfGlobalVariables
 
