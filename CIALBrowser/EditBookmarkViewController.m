@@ -151,7 +151,7 @@
                         _urlTextField.autoresizingMask = UIViewAutoresizingFlexibleWidth;
                         _urlTextField.adjustsFontSizeToFitWidth = YES;
                         _urlTextField.minimumFontSize = 14.0;
-                        _urlTextField.font = [UIFont systemFontOfSize:17.0];
+                        _urlTextField.font = [UIFont fontWithName:@"OpenDyslexic" size:17.0];
                         _urlTextField.textColor = [UIColor colorWithRed:50.0/255 green:79.0/255 blue:133.0/255 alpha:1.0];
                         _urlTextField.keyboardType = UIKeyboardTypeURL;
                         _urlTextField.returnKeyType = UIReturnKeyDone;

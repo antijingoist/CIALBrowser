@@ -26,6 +26,10 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>LSApplicationCategoryType</key>
+	<array>
+		<string></string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -39,6 +43,13 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OpenDyslexic-Italic.ttf</string>
+		<string>OpenDyslexic-BoldItalic.ttf</string>
+		<string>OpenDyslexic.ttf</string>
+		<string>OpenDyslexic-Bold.ttf</string>
 	</array>
 </dict>
 </plist>

@@ -14,6 +14,10 @@
 		46031DFF1520BCFC00DB9AF7 /* UIWebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46031DE31520BCFC00DB9AF7 /* UIWebViewAdditions.m */; };
 		46031E001520BCFC00DB9AF7 /* UnpreventableUILongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46031DE51520BCFC00DB9AF7 /* UnpreventableUILongPressGestureRecognizer.m */; };
 		46031E011520BCFC00DB9AF7 /* ViewBookmarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46031DE71520BCFC00DB9AF7 /* ViewBookmarkViewController.m */; };
+		87F1ABD71539004B0051815B /* OpenDyslexic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABD31539004B0051815B /* OpenDyslexic-Bold.ttf */; };
+		87F1ABD81539004B0051815B /* OpenDyslexic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABD41539004B0051815B /* OpenDyslexic-BoldItalic.ttf */; };
+		87F1ABD91539004B0051815B /* OpenDyslexic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABD51539004B0051815B /* OpenDyslexic-Italic.ttf */; };
+		87F1ABDA1539004B0051815B /* OpenDyslexic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABD61539004B0051815B /* OpenDyslexic.ttf */; };
 		F945A5541412C2BC0058C6A8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F945A5531412C2BC0058C6A8 /* MessageUI.framework */; };
 		F98C951814109AF700C9A937 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98C951714109AF700C9A937 /* CoreGraphics.framework */; };
 		F99D7AE7152263ED00E73F4E /* CIALBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F99D7AE6152263ED00E73F4E /* CIALBrowser.bundle */; };
@@ -43,6 +47,10 @@
 		46031DE61520BCFC00DB9AF7 /* ViewBookmarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBookmarkViewController.h; sourceTree = "<group>"; };
 		46031DE71520BCFC00DB9AF7 /* ViewBookmarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBookmarkViewController.m; sourceTree = "<group>"; };
 		4662A297152B1F0100C423BD /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		87F1ABD31539004B0051815B /* OpenDyslexic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Bold.ttf"; sourceTree = "<group>"; };
+		87F1ABD41539004B0051815B /* OpenDyslexic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-BoldItalic.ttf"; sourceTree = "<group>"; };
+		87F1ABD51539004B0051815B /* OpenDyslexic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.ttf"; sourceTree = "<group>"; };
+		87F1ABD61539004B0051815B /* OpenDyslexic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenDyslexic.ttf; sourceTree = "<group>"; };
 		F945A5531412C2BC0058C6A8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F98C951714109AF700C9A937 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F99D7AE6152263ED00E73F4E /* CIALBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CIALBrowser.bundle; sourceTree = "<group>"; };
@@ -50,13 +58,13 @@
 		F99D7AF91522779700E73F4E /* CIALBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIALBrowser.m; sourceTree = "<group>"; };
 		F99D7B1B1522DCC600E73F4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../../CIALBrowserAsModal/CIALBrowserAsModal/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F99D7B1D1522DCD200E73F4E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = ../../CIALBrowserAsModal/CIALBrowserAsModal/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F9E3C5CC1410965500D44684 /* CIALBrowserViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIALBrowserViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3C5CC1410965500D44684 /* Readable Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Readable Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E3C5D01410965500D44684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F9E3C5D21410965500D44684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F9E3C5D61410965500D44684 /* CIALBrowserViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CIALBrowserViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		F9E3C5D61410965500D44684 /* Readable Browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Readable Browser-Info.plist"; sourceTree = "<group>"; };
 		F9E3C5D81410965500D44684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9E3C5DA1410965500D44684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F9E3C5DC1410965500D44684 /* CIALBrowserViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CIALBrowserViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F9E3C5DC1410965500D44684 /* Readable Browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Readable Browser-Prefix.pch"; sourceTree = "<group>"; };
 		F9E3C5DD1410965500D44684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9E3C5DE1410965500D44684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +109,17 @@
 			path = ../../../CIALBrowser;
 			sourceTree = "<group>";
 		};
+		87F1ABD2153900330051815B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				87F1ABD31539004B0051815B /* OpenDyslexic-Bold.ttf */,
+				87F1ABD41539004B0051815B /* OpenDyslexic-BoldItalic.ttf */,
+				87F1ABD51539004B0051815B /* OpenDyslexic-Italic.ttf */,
+				87F1ABD61539004B0051815B /* OpenDyslexic.ttf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
 		F9E3C5C11410965400D44684 = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +132,7 @@
 		F9E3C5CD1410965500D44684 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9E3C5CC1410965500D44684 /* CIALBrowserViewControllerDemo.app */,
+				F9E3C5CC1410965500D44684 /* Readable Browser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +151,7 @@
 		F9E3C5D41410965500D44684 /* CIALBrowserViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				87F1ABD2153900330051815B /* fonts */,
 				46031DC41520BCFC00DB9AF7 /* CIALBrowser */,
 				F9E3C5DD1410965500D44684 /* AppDelegate.h */,
 				F9E3C5DE1410965500D44684 /* AppDelegate.m */,
@@ -144,10 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				F99D7B1A1522DCC600E73F4E /* Localizable.strings */,
-				F9E3C5D61410965500D44684 /* CIALBrowserViewControllerDemo-Info.plist */,
+				F9E3C5D61410965500D44684 /* Readable Browser-Info.plist */,
 				F9E3C5D71410965500D44684 /* InfoPlist.strings */,
 				F9E3C5DA1410965500D44684 /* main.m */,
-				F9E3C5DC1410965500D44684 /* CIALBrowserViewControllerDemo-Prefix.pch */,
+				F9E3C5DC1410965500D44684 /* Readable Browser-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9E3C5CB1410965500D44684 /* CIALBrowserViewControllerDemo */ = {
+		F9E3C5CB1410965500D44684 /* Readable Browser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "CIALBrowserViewControllerDemo" */;
+			buildConfigurationList = F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "Readable Browser" */;
 			buildPhases = (
 				F9E3C5C81410965500D44684 /* Sources */,
 				F9E3C5C91410965500D44684 /* Frameworks */,
@@ -167,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = CIALBrowserViewControllerDemo;
+			name = "Readable Browser";
 			productName = CIALBrowserViewControllerDemo;
-			productReference = F9E3C5CC1410965500D44684 /* CIALBrowserViewControllerDemo.app */;
+			productReference = F9E3C5CC1410965500D44684 /* Readable Browser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +200,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "CIALBrowserViewControllerDemo" */;
+			buildConfigurationList = F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "Readable Browser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,7 +214,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9E3C5CB1410965500D44684 /* CIALBrowserViewControllerDemo */,
+				F9E3C5CB1410965500D44684 /* Readable Browser */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +228,10 @@
 				F99D7AE7152263ED00E73F4E /* CIALBrowser.bundle in Resources */,
 				F99D7B1C1522DCC600E73F4E /* Localizable.strings in Resources */,
 				F99D7B1E1522DCD200E73F4E /* Localizable.strings in Resources */,
+				87F1ABD71539004B0051815B /* OpenDyslexic-Bold.ttf in Resources */,
+				87F1ABD81539004B0051815B /* OpenDyslexic-BoldItalic.ttf in Resources */,
+				87F1ABD91539004B0051815B /* OpenDyslexic-Italic.ttf in Resources */,
+				87F1ABDA1539004B0051815B /* OpenDyslexic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +328,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/CIALBrowserViewControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/CIALBrowserViewControllerDemo-Info.plist";
+				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/Readable Browser-Prefix.pch";
+				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/Readable Browser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Readable Browser";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -316,10 +340,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/CIALBrowserViewControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/CIALBrowserViewControllerDemo-Info.plist";
+				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/Readable Browser-Prefix.pch";
+				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/Readable Browser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Readable Browser";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -327,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "CIALBrowserViewControllerDemo" */ = {
+		F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "Readable Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E3C5E01410965500D44684 /* Debug */,
@@ -336,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "CIALBrowserViewControllerDemo" */ = {
+		F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "Readable Browser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E3C5E31410965500D44684 /* Debug */,

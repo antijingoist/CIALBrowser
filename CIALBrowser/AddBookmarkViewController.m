@@ -170,7 +170,7 @@
                         cell.selectionStyle = UITableViewCellSelectionStyleNone;
                     }
                     cell.textLabel.adjustsFontSizeToFitWidth = YES;
-                    cell.textLabel.font = [UIFont systemFontOfSize:17.0];
+                    cell.textLabel.font = [UIFont fontWithName:@"OpenDyslexic" size:17.0];
                     cell.textLabel.minimumFontSize = 14.0;
                     cell.textLabel.textColor = [UIColor colorWithRed:165.0/255 green:165.0/255 blue:165.0/255 alpha:1.0];
                     cell.textLabel.text = [_bookmark.url absoluteString];

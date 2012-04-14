@@ -105,7 +105,7 @@ NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"
         locationField.textColor = [UIColor colorWithRed:102.0/255 green:102.0/255 blue:102.0/255 alpha:1.0];
         locationField.textAlignment = UITextAlignmentLeft;
         locationField.borderStyle = UITextBorderStyleRoundedRect;
-        locationField.font = [UIFont fontWithName:@"Helvetica" size:15];
+        locationField.font = [UIFont fontWithName:@"OpenDyslexic" size:15];
         locationField.autocorrectionType = UITextAutocorrectionTypeNo;
         locationField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
         locationField.clearsOnBeginEditing = NO;
@@ -166,7 +166,7 @@ NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"
         locationField.textColor = [UIColor colorWithRed:102.0/255 green:102.0/255 blue:102.0/255 alpha:1.0];
         locationField.textAlignment = UITextAlignmentLeft;
         locationField.borderStyle = UITextBorderStyleRoundedRect;
-        locationField.font = [UIFont fontWithName:@"Helvetica" size:15];
+        locationField.font = [UIFont fontWithName:@"OpenDyslexic" size:15];
         locationField.autocorrectionType = UITextAutocorrectionTypeNo;
         locationField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
         locationField.clearsOnBeginEditing = NO;
