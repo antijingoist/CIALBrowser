@@ -1,0 +1,27 @@
+
+body {
+	background-color: #f4f4fa !important;
+	background-image: url(../images/cross_scratches.png);
+	background-repeat: repeat !important;
+	color: #191a42;
+	font-family: OpenDyslexic !important;
+    
+}
+
+
+p:nth-child(even) {
+	background-color: rgba(0,0,0, .03) !important;
+}
+
+li:nth-child(even) {
+	background-color: rgba(0,0,0, .03) !important;
+}
+
+
+* {
+    font-family: OpenDyslexic !important;
+}
+
+input, textarea {
+    font-family: OpenDyslexic !important;
+}
