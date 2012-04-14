@@ -185,6 +185,7 @@
     cell.accessoryType = UITableViewCellAccessoryNone;
     cell.editingAccessoryType = UITableViewCellAccessoryDisclosureIndicator;
     [cell.textLabel setText:bookmark.name];
+   cell.textLabel.font = [UIFont fontWithName:@"OpenDyslexic" size:17.0];
     cell.imageView.image = [UIImage imageNamed:@"CIALBrowser.bundle/images/Bookmark.png"];
     cell.imageView.highlightedImage = [UIImage imageNamed:@"CIALBrowser.bundle/images/BookmarkSelected.png"];
     

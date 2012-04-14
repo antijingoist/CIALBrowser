@@ -129,6 +129,7 @@
                         _nameTextField.textAlignment = UITextAlignmentLeft;
                         _nameTextField.delegate = self;
                         _nameTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
+                       _nameTextField.font = [UIFont fontWithName:@"OpenDyslexic" size:17.0];
                         
                         [_nameTextField setEnabled: YES];
                         

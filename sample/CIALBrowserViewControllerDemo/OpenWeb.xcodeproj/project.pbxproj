@@ -18,6 +18,17 @@
 		87F1ABD81539004B0051815B /* OpenDyslexic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABD41539004B0051815B /* OpenDyslexic-BoldItalic.ttf */; };
 		87F1ABD91539004B0051815B /* OpenDyslexic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABD51539004B0051815B /* OpenDyslexic-Italic.ttf */; };
 		87F1ABDA1539004B0051815B /* OpenDyslexic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABD61539004B0051815B /* OpenDyslexic.ttf */; };
+		87F1ABDC153907290051815B /* ODSBrowser.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABDB153907280051815B /* ODSBrowser.png */; };
+		87F1ABDE1539072C0051815B /* odsbrowsersmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABDD1539072C0051815B /* odsbrowsersmall.png */; };
+		87F1ABE0153907A50051815B /* odsbrowseripad1.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABDF153907A50051815B /* odsbrowseripad1.png */; };
+		87F1ABE2153907BA0051815B /* ipad2.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABE1153907BA0051815B /* ipad2.png */; };
+		87F1ABE415390A5B0051815B /* iOS.css in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABE315390A5B0051815B /* iOS.css */; };
+		87F1ABE615391EA70051815B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABE515391EA70051815B /* Default@2x.png */; };
+		87F1ABE815391EAC0051815B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABE715391EAC0051815B /* Default.png */; };
+		87F1ABEA1539201F0051815B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABE91539201F0051815B /* Default-Portrait~ipad.png */; };
+		87F1ABEC153920830051815B /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABEB153920830051815B /* Default-Landscape~ipad.png */; };
+		87F1ABEE153921000051815B /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABED153921000051815B /* Default-Landscape@2x~ipad.png */; };
+		87F1ABF0153921040051815B /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F1ABEF153921040051815B /* Default-Portrait@2x~ipad.png */; };
 		F945A5541412C2BC0058C6A8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F945A5531412C2BC0058C6A8 /* MessageUI.framework */; };
 		F98C951814109AF700C9A937 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F98C951714109AF700C9A937 /* CoreGraphics.framework */; };
 		F99D7AE7152263ED00E73F4E /* CIALBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F99D7AE6152263ED00E73F4E /* CIALBrowser.bundle */; };
@@ -51,6 +62,17 @@
 		87F1ABD41539004B0051815B /* OpenDyslexic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-BoldItalic.ttf"; sourceTree = "<group>"; };
 		87F1ABD51539004B0051815B /* OpenDyslexic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic-Italic.ttf"; sourceTree = "<group>"; };
 		87F1ABD61539004B0051815B /* OpenDyslexic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenDyslexic.ttf; sourceTree = "<group>"; };
+		87F1ABDB153907280051815B /* ODSBrowser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ODSBrowser.png; sourceTree = "<group>"; };
+		87F1ABDD1539072C0051815B /* odsbrowsersmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = odsbrowsersmall.png; sourceTree = "<group>"; };
+		87F1ABDF153907A50051815B /* odsbrowseripad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = odsbrowseripad1.png; sourceTree = "<group>"; };
+		87F1ABE1153907BA0051815B /* ipad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad2.png; sourceTree = "<group>"; };
+		87F1ABE315390A5B0051815B /* iOS.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iOS.css; sourceTree = "<group>"; };
+		87F1ABE515391EA70051815B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		87F1ABE715391EAC0051815B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		87F1ABE91539201F0051815B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		87F1ABEB153920830051815B /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		87F1ABED153921000051815B /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		87F1ABEF153921040051815B /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		F945A5531412C2BC0058C6A8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		F98C951714109AF700C9A937 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F99D7AE6152263ED00E73F4E /* CIALBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CIALBrowser.bundle; sourceTree = "<group>"; };
@@ -58,13 +80,13 @@
 		F99D7AF91522779700E73F4E /* CIALBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIALBrowser.m; sourceTree = "<group>"; };
 		F99D7B1B1522DCC600E73F4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../../CIALBrowserAsModal/CIALBrowserAsModal/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F99D7B1D1522DCD200E73F4E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = ../../CIALBrowserAsModal/CIALBrowserAsModal/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F9E3C5CC1410965500D44684 /* Readable Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Readable Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3C5CC1410965500D44684 /* OpenDyslexic Web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenDyslexic Web.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E3C5D01410965500D44684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F9E3C5D21410965500D44684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F9E3C5D61410965500D44684 /* Readable Browser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Readable Browser-Info.plist"; sourceTree = "<group>"; };
+		F9E3C5D61410965500D44684 /* OpenDyslexic Web-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenDyslexic Web-Info.plist"; sourceTree = "<group>"; };
 		F9E3C5D81410965500D44684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9E3C5DA1410965500D44684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F9E3C5DC1410965500D44684 /* Readable Browser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Readable Browser-Prefix.pch"; sourceTree = "<group>"; };
+		F9E3C5DC1410965500D44684 /* OpenDyslexic Web-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenDyslexic Web-Prefix.pch"; sourceTree = "<group>"; };
 		F9E3C5DD1410965500D44684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9E3C5DE1410965500D44684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +145,16 @@
 		F9E3C5C11410965400D44684 = {
 			isa = PBXGroup;
 			children = (
+				87F1ABEF153921040051815B /* Default-Portrait@2x~ipad.png */,
+				87F1ABED153921000051815B /* Default-Landscape@2x~ipad.png */,
+				87F1ABEB153920830051815B /* Default-Landscape~ipad.png */,
+				87F1ABE91539201F0051815B /* Default-Portrait~ipad.png */,
+				87F1ABE715391EAC0051815B /* Default.png */,
+				87F1ABE515391EA70051815B /* Default@2x.png */,
+				87F1ABE1153907BA0051815B /* ipad2.png */,
+				87F1ABDF153907A50051815B /* odsbrowseripad1.png */,
+				87F1ABDD1539072C0051815B /* odsbrowsersmall.png */,
+				87F1ABDB153907280051815B /* ODSBrowser.png */,
 				F9E3C5D41410965500D44684 /* CIALBrowserViewControllerDemo */,
 				F9E3C5CF1410965500D44684 /* Frameworks */,
 				F9E3C5CD1410965500D44684 /* Products */,
@@ -132,7 +164,7 @@
 		F9E3C5CD1410965500D44684 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9E3C5CC1410965500D44684 /* Readable Browser.app */,
+				F9E3C5CC1410965500D44684 /* OpenDyslexic Web.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +183,7 @@
 		F9E3C5D41410965500D44684 /* CIALBrowserViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				87F1ABE315390A5B0051815B /* iOS.css */,
 				87F1ABD2153900330051815B /* fonts */,
 				46031DC41520BCFC00DB9AF7 /* CIALBrowser */,
 				F9E3C5DD1410965500D44684 /* AppDelegate.h */,
@@ -164,10 +197,10 @@
 			isa = PBXGroup;
 			children = (
 				F99D7B1A1522DCC600E73F4E /* Localizable.strings */,
-				F9E3C5D61410965500D44684 /* Readable Browser-Info.plist */,
+				F9E3C5D61410965500D44684 /* OpenDyslexic Web-Info.plist */,
 				F9E3C5D71410965500D44684 /* InfoPlist.strings */,
 				F9E3C5DA1410965500D44684 /* main.m */,
-				F9E3C5DC1410965500D44684 /* Readable Browser-Prefix.pch */,
+				F9E3C5DC1410965500D44684 /* OpenDyslexic Web-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9E3C5CB1410965500D44684 /* Readable Browser */ = {
+		F9E3C5CB1410965500D44684 /* OpenDyslexic Web */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "Readable Browser" */;
+			buildConfigurationList = F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "OpenDyslexic Web" */;
 			buildPhases = (
 				F9E3C5C81410965500D44684 /* Sources */,
 				F9E3C5C91410965500D44684 /* Frameworks */,
@@ -187,9 +220,9 @@
 			);
 			dependencies = (
 			);
-			name = "Readable Browser";
+			name = "OpenDyslexic Web";
 			productName = CIALBrowserViewControllerDemo;
-			productReference = F9E3C5CC1410965500D44684 /* Readable Browser.app */;
+			productReference = F9E3C5CC1410965500D44684 /* OpenDyslexic Web.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +233,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "Readable Browser" */;
+			buildConfigurationList = F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "OpenWeb" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,7 +247,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9E3C5CB1410965500D44684 /* Readable Browser */,
+				F9E3C5CB1410965500D44684 /* OpenDyslexic Web */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +265,17 @@
 				87F1ABD81539004B0051815B /* OpenDyslexic-BoldItalic.ttf in Resources */,
 				87F1ABD91539004B0051815B /* OpenDyslexic-Italic.ttf in Resources */,
 				87F1ABDA1539004B0051815B /* OpenDyslexic.ttf in Resources */,
+				87F1ABDC153907290051815B /* ODSBrowser.png in Resources */,
+				87F1ABDE1539072C0051815B /* odsbrowsersmall.png in Resources */,
+				87F1ABE0153907A50051815B /* odsbrowseripad1.png in Resources */,
+				87F1ABE2153907BA0051815B /* ipad2.png in Resources */,
+				87F1ABE415390A5B0051815B /* iOS.css in Resources */,
+				87F1ABE615391EA70051815B /* Default@2x.png in Resources */,
+				87F1ABE815391EAC0051815B /* Default.png in Resources */,
+				87F1ABEA1539201F0051815B /* Default-Portrait~ipad.png in Resources */,
+				87F1ABEC153920830051815B /* Default-Landscape~ipad.png in Resources */,
+				87F1ABEE153921000051815B /* Default-Landscape@2x~ipad.png in Resources */,
+				87F1ABF0153921040051815B /* Default-Portrait@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +328,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Abelardo Gonzalez (CU6MM68EAE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abelardo Gonzalez (CU6MM68EAE)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -299,6 +344,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "757F491B-02B9-4AF6-9E05-0AB004422260";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "757F491B-02B9-4AF6-9E05-0AB004422260";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,7 +356,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abelardo Gonzalez";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Abelardo Gonzalez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abelardo Gonzalez";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -318,6 +367,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "5E987F63-CCCD-4A88-A76D-BC8D1B565FAF";
+				"PROVISIONING_PROFILE[sdk=*]" = "5E987F63-CCCD-4A88-A76D-BC8D1B565FAF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5E987F63-CCCD-4A88-A76D-BC8D1B565FAF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -327,11 +379,15 @@
 		F9E3C5E31410965500D44684 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Abelardo Gonzalez (CU6MM68EAE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Abelardo Gonzalez (CU6MM68EAE)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/Readable Browser-Prefix.pch";
-				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/Readable Browser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "Readable Browser";
+				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/OpenDyslexic Web-Prefix.pch";
+				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/OpenDyslexic Web-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "OpenDyslexic Web";
+				PROVISIONING_PROFILE = "757F491B-02B9-4AF6-9E05-0AB004422260";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "757F491B-02B9-4AF6-9E05-0AB004422260";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -339,11 +395,17 @@
 		F9E3C5E41410965500D44684 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Abelardo Gonzalez";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Abelardo Gonzalez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Abelardo Gonzalez";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/Readable Browser-Prefix.pch";
-				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/Readable Browser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "Readable Browser";
+				GCC_PREFIX_HEADER = "CIALBrowserViewControllerDemo/OpenDyslexic Web-Prefix.pch";
+				INFOPLIST_FILE = "CIALBrowserViewControllerDemo/OpenDyslexic Web-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "OpenDyslexic Web";
+				PROVISIONING_PROFILE = "5E987F63-CCCD-4A88-A76D-BC8D1B565FAF";
+				"PROVISIONING_PROFILE[sdk=*]" = "5E987F63-CCCD-4A88-A76D-BC8D1B565FAF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5E987F63-CCCD-4A88-A76D-BC8D1B565FAF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -351,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "Readable Browser" */ = {
+		F9E3C5C61410965400D44684 /* Build configuration list for PBXProject "OpenWeb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E3C5E01410965500D44684 /* Debug */,
@@ -360,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "Readable Browser" */ = {
+		F9E3C5E21410965500D44684 /* Build configuration list for PBXNativeTarget "OpenDyslexic Web" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E3C5E31410965500D44684 /* Debug */,

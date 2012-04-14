@@ -5,17 +5,49 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>OpenWeb</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
-	<array/>
+	<array>
+		<string>ODSBrowser.png</string>
+		<string>odsbrowsersmall.png</string>
+		<string>odsbrowseripad1.png</string>
+		<string>ipad2.png</string>
+		<string>Default@2x.png</string>
+		<string>Default@2x.png</string>
+		<string>Default.png</string>
+		<string>Default-Portrait~ipad.png</string>
+		<string>Default-Landscape~ipad.png</string>
+		<string>Default-Landscape@2x~ipad.png</string>
+		<string>Default-Portrait@2x~ipad.png</string>
+	</array>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>ODSBrowser.png</string>
+				<string>odsbrowsersmall.png</string>
+				<string>odsbrowseripad1.png</string>
+				<string>ipad2.png</string>
+				<string>Default@2x.png</string>
+				<string>Default@2x.png</string>
+				<string>Default.png</string>
+				<string>Default-Portrait~ipad.png</string>
+				<string>Default-Landscape~ipad.png</string>
+				<string>Default-Landscape@2x~ipad.png</string>
+				<string>Default-Portrait@2x~ipad.png</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>es.abbiecod.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>es.abbiecod.OpenDyselxic-Web</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>OpenDyselxic-Web</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -24,11 +56,18 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
 	<key>LSApplicationCategoryType</key>
 	<array>
 		<string></string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OpenDyslexic-Italic.ttf</string>
+		<string>OpenDyslexic-BoldItalic.ttf</string>
+		<string>OpenDyslexic.ttf</string>
+		<string>OpenDyslexic-Bold.ttf</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
@@ -43,13 +82,6 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>UIAppFonts</key>
-	<array>
-		<string>OpenDyslexic-Italic.ttf</string>
-		<string>OpenDyslexic-BoldItalic.ttf</string>
-		<string>OpenDyslexic.ttf</string>
-		<string>OpenDyslexic-Bold.ttf</string>
 	</array>
 </dict>
 </plist>

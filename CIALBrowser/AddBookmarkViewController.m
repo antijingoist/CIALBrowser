@@ -154,6 +154,7 @@
                         _nameTextField.delegate = self;
                         _nameTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
                         [_nameTextField setEnabled: YES];
+                       _nameTextField.font = [UIFont fontWithName:@"OpenDyslexic" size:17.0];
                         _nameTextField.text = _bookmark.name;
                         
                         [cell addSubview:_nameTextField];

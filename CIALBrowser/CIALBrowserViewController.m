@@ -32,6 +32,8 @@
 @synthesize modal = _modal;
 @synthesize enabledSafari = _enabledSafari;
 //OpenDyslexic code
+
+
 NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"  
    "css.setAttribute('type','text/css');"
    "css.setAttribute('rel','stylesheet');"
@@ -74,6 +76,7 @@ NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"
         toolBar.barStyle = UIBarStyleDefault;
         [toolBar sizeToFit];
         toolBar.autoresizesSubviews = NO;
+       
         toolBar.frame = CGRectMake(0,
                                    0,
                                    self.view.frame.size.width, 
@@ -197,6 +200,8 @@ NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"
         }
         
         navigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
+       navigationBar.barStyle = UIBarStyleBlack;
+       navigationBar.translucent = YES;
         navigationBar.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         [navigationBar setItems:[NSArray arrayWithObject:navigationItem]];
         [self.view addSubview:navigationBar];
@@ -204,7 +209,8 @@ NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"
         
         // Toolbar
         toolBar = [[[UIToolbar alloc] initWithFrame:CGRectZero] autorelease];
-        toolBar.barStyle = UIBarStyleDefault;
+        toolBar.barStyle = UIBarStyleBlack;
+       toolBar.translucent = YES;
         [toolBar sizeToFit];
         toolBar.autoresizesSubviews = NO;
         toolBar.frame = CGRectMake(0,
@@ -246,7 +252,8 @@ NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"
         [self.view addSubview:toolBar];
         
         // webView
-        webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, navigationBar.frame.size.height , self.view.frame.size.width, self.view.frame.size.height - navigationBar.frame.size.height - toolBar.frame.size.height)];
+      
+       webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, navigationBar.frame.size.height , self.view.frame.size.width, self.view.frame.size.height - navigationBar.frame.size.height - toolBar.frame.size.height)];
         webView.scalesPageToFit = YES;
         webView.contentMode = UIViewContentModeScaleToFill;
         webView.multipleTouchEnabled = YES;
@@ -822,7 +829,30 @@ NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"
                 [_longPressActionSheet showInView:self.view];
             }
             [_longPressActionSheet release];
-        }        
+           
+        }else{
+           if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+              if (toolBar.hidden == YES){
+                 toolBar.hidden = NO;
+                 webView.frame = CGRectMake(0, toolBar.frame.size.height , self.view.frame.size.width, self.view.frame.size.height - toolBar.frame.size.height);
+              }else {
+                 toolBar.hidden = YES;
+                 webView.frame = self.view.bounds;
+
+              }
+           }else{
+              if(navigationBar.hidden == YES){
+                 navigationBar.hidden = NO;
+                 toolBar.hidden = NO;
+                 webView.frame = CGRectMake(0, navigationBar.frame.size.height , self.view.frame.size.width, self.view.frame.size.height - navigationBar.frame.size.height - toolBar.frame.size.height);
+              }else {
+                 navigationBar.hidden = YES;
+                 toolBar.hidden = YES;
+                 webView.frame = self.view.bounds;
+              }
+           }
+           
+        }
     }
 }
 
