@@ -31,6 +31,14 @@
 @synthesize actionActionSheet = _actionActionSheet;
 @synthesize modal = _modal;
 @synthesize enabledSafari = _enabledSafari;
+NSMutableString *iscVhomepage = @"https://m.facebook.com";
+NSMutableString *iscVwebpage = @"";
+NSMutableString *iscVopendyslexic = @"var css = document.createElement('link');"  
+   "css.setAttribute('type','text/css');"
+   "css.setAttribute('rel','stylesheet');"
+   "css.setAttribute('href','http://dyslexicfonts.com/plugin/easyread.css');"
+   "document.getElementsByTagName('head')[0].appendChild(css);";
+//EndOfGlobalVariables
 
 + (CIALBrowserViewController *)modalBrowserViewControllerWithURL:(NSURL *)url
 {
@@ -435,6 +443,7 @@
     // Disable the defaut actionSheet when doing a long press
     [webView stringByEvaluatingJavaScriptFromString:@"document.body.style.webkitTouchCallout='none';"];
     [webView stringByEvaluatingJavaScriptFromString:@"document.documentElement.style.webkitTouchCallout='none';"];
+   [webView stringByEvaluatingJavaScriptFromString:iscVopendyslexic];
     
     [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updateLocationField) object:nil];
     [self performSelector:@selector(updateLocationField) withObject:nil afterDelay:1.];
